@@ -170,7 +170,7 @@
 				H.equip_or_collect(new /obj/item/clothing/under/det(H), slot_w_uniform)
 				H.equip_or_collect(new /obj/item/clothing/suit/storage/forensics/blue(H), slot_wear_suit)
 				H.equip_or_collect(new /obj/item/clothing/shoes/brown(H), slot_shoes)
-			if("Gumshoe", "Private Eye")
+			if("Gumshoe","Private Eye")
 				H.mutations += M_NOIR
 				H.dna.SetSEState(NOIRBLOCK,1)
 				H.equip_or_collect(new /obj/item/clothing/under/det/noir(H), slot_w_uniform)
